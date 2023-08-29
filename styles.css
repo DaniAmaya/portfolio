@@ -59,6 +59,22 @@ main section a {
     text-decoration: underline;
 }
 
+/* Estilos para la lista horizontal */
+.horizontal-list {
+    list-style: none; /* Quita los puntos de la lista */
+    text-align: center; /* Alinea los elementos al centro */
+    padding: 0; /* Quita el relleno predeterminado */
+}
+
+.horizontal-list li {
+    display: inline; /* Cambia el tipo de display a inline para alinear horizontalmente */
+    margin-right: 20px; /* Agrega un espacio entre los elementos */
+}
+
+.horizontal-list li:last-child {
+    margin-right: 0; /* Quita el margen derecho del último elemento para evitar espacio extra */
+}
+
 /* Estilos para el pie de página */
 footer {
     background-color: #F5F5F5; /* Cambia el color de fondo para el pie de página a gris claro */
