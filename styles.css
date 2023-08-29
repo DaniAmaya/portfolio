@@ -6,16 +6,26 @@ body {
 }
 
 /* Estilos para el encabezado */
+/* Estilos para el encabezado */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #F5F5F5; /* Cambia el color de fondo para el encabezado a gris claro */
+    color: #333; /* Cambia el color del texto para que sea legible en un fondo claro */
     text-align: center;
     padding: 1em 0;
 }
 
+/* Estilos para el logo */
+header img {
+    max-width: 200px; /* Ajusta el tamaño máximo del logo */
+    margin: 10px; /* Agrega un margen alrededor del logo */
+    display: block; /* Asegura que el logo sea un elemento de bloque */
+    border-radius: 50%;
+    margin: 0 auto; /* Centra horizontalmente el logo */
+}
+
 /* Estilos para la barra de navegación */
 nav {
-    background-color: #444;
+    background-color: #B26BFF; /* Cambia el color de fondo a verde azulado */
     padding: 0.5em 0;
 }
 
@@ -34,15 +44,26 @@ nav a {
     color: white;
 }
 
-/* Estilos para el contenido principal */
-main {
+
+/* Estilos para las secciones */
+main section {
     padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #BB7ED7;
+    background-color: #E9CFFF;
+}
+
+/* Estilos para los enlaces en las secciones */
+main section a {
+    color: #007bff;
+    text-decoration: underline;
 }
 
 /* Estilos para el pie de página */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #F5F5F5; /* Cambia el color de fondo para el pie de página a gris claro */
+    color: #333; /* Cambia el color del texto para que sea legible en un fondo claro */
     text-align: center;
     padding: 1em 0;
 }
+
