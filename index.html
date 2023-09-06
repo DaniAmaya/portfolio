@@ -1,58 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Portafolio</title>
-</head>
-<body>
-    <header>
-        <img src="logo.png" alt="Logo de Daniamaya">
-        <h1>Dani Amaya</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#biografia">Biografía</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="biografia">
-            <h2>Biografía</h2>
-            <p>Hola, soy [Tu Nombre]. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ac justo id purus dictum lacinia vel at odio. Quisque pharetra hendrerit nisi in tempus.</p>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8"/>
+        <title>Mi Portfolio</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="image-container" id="logo">
+                <img src="images/logo.png" />
+            </div>
+        </header>
+        
+        <section id="hero">
+
+            <div class="image-container" id="sala">
+                <img src="images/hero.jpg" alt="Automate to Simplify" />
+            </div>
+
+            <div class="informacion-contenedor">
+
+                <div class="image-container" id="perfil">
+                    <img src ="images/perfil.png" alt="Foto Perfil" />
+                </div>
+
+                <div class="informacion">
+
+                    <h1> Dani Amaya Muvdi </h1>
+                    <span>@amayamuvdi</span>
+                    
+                    <p>Automate to Simplify</p>
+
+                </div>
+
+            </div>
+
         </section>
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <p>Aquí puedes describir algunos de los proyectos en los que has trabajado o que has creado.</p>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Desarrollo web</li>
-                <li>Diseño gráfico</li>
-                <li>Programación en Python</li>
+
+        <main>
+
+            <p>
+                🤖 Everything can be automated to free you up time and costs 
+            </p>
+
+            <ul class="social-icons">
+
+                <li>
+                    <a href="https://www.linkedin.com/in/daniamayamuvdi/" target="_blank"
+                    class="social-icon" id="LinkedIn">
+                        <img src="images/linkedin.png" alt="linkedin" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/DaniAmaya" target="_blank"
+                    class="social-icon" id="GitHub">
+                        <img src="images/github.png" alt="github" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/amayamuvdi" target="_blank"
+                    class="social-icon" id="Twitter">
+                        <img src="images/twitter.png" alt="twitter" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/@daniamaya/" target="_blank"
+                    class="social-icon" id="YouTube">
+                        <img src="images/youtube.png" alt="youtube" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/daniamayamuvdi/" target="_blank"
+                    class="social-icon" id="Instagram">
+                        <img src="images/instagram.png" alt="instagram" />
+                    </a>
+                </li>
+
             </ul>
-        </section>
-        <section id="educacion">
-            <h2>Educación</h2>
-            <p>Graduado en [Título Universitario] en [Universidad], [Año]</p>
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme en [daniamayamuvdi@gmail.com] o a través de mis redes sociales:</p>
-            <ul class="horizontal-list">
-                <li><a href="https://twitter.com/amayamuvdi">Twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/daniamayamuvdi/">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/daniamayamuvdi/">Instagram</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 | Dani Amaya</p>
-    </footer>
-</body>
+
+        </main>
+
+    </body>
+
 </html>
